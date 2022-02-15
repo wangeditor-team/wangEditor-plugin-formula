@@ -1,2 +1,3 @@
-# wangEditor-plugin-formula
-wangEditor 公式
+# wangEditor 公式
+
+开发中...
