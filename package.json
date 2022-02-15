@@ -1,7 +1,7 @@
 {
-  "name": "wangeditor-plugin-formula",
-  "version": "1.0.0",
-  "description": "wangEditor 公式",
+  "name": "@wangeditor/plugin-formula",
+  "version": "1.0.1",
+  "description": "wangEditor formula 公式",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangeditor-team/wangEditor-plugin-formula.git"
