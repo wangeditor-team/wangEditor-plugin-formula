@@ -29,10 +29,13 @@ function renderFormula(elem: SlateElement, children: VNode[] | null, editor: IDo
         contentEditable: false, // 不可编辑
       },
       style: {
-        display: 'inline', // inline
+        display: 'inline-block', // inline
         marginLeft: '3px',
         marginRight: '3px',
-        border: selected ? '1px solid #ccc' : '1px solid transparent', // 选中/不选中，样式不一样
+        border: selected // 选中/不选中，样式不一样
+          ? '2px solid var(--w-e-textarea-selected-border-color)' // wangEditor 提供了 css var https://www.wangeditor.com/v5/guide/theme.html
+          : '2px solid transparent',
+        borderRadius: '3px',
         padding: '3px 3px',
       },
     },

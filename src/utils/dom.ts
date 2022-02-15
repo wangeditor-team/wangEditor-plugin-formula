@@ -3,12 +3,13 @@
  * @author wangfupeng
  */
 
-import $, { append, html, val, on } from 'dom7'
+import $, { append, html, val, on, focus } from 'dom7'
 
 if (append) $.fn.append = append
 if (html) $.fn.html = html
 if (val) $.fn.val = val
 if (on) $.fn.on = on
+if (focus) $.fn.on = focus
 
 export { Dom7Array } from 'dom7'
 export default $
