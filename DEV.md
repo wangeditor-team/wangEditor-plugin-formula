@@ -19,10 +19,12 @@
 
 ## release 发布
 
-提交 git tag 可触发 github actions 并发布 npm
+第一，升级 package.json 版本
+
+第二，提交 git tag 可触发 github actions 并发布 npm
 
 ```sh
-git tag -a v1.0.1 -m "v1.0.1"
+git tag -a v1.0.1 -m "v1.0.1"  # 和 package.json 版本同步即可
 git push origin --tags
 ```
 
