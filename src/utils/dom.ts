@@ -9,7 +9,7 @@ if (append) $.fn.append = append
 if (html) $.fn.html = html
 if (val) $.fn.val = val
 if (on) $.fn.on = on
-if (focus) $.fn.on = focus
+if (focus) $.fn.focus = focus
 
 export { Dom7Array } from 'dom7'
 export default $
