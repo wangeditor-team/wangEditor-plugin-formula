@@ -14,7 +14,7 @@ export const insertFormulaMenuConf = {
 }
 
 export const editFormulaMenuConf = {
-  key: 'editorFormula', // menu key ，唯一。注册之后，可配置到工具栏
+  key: 'editFormula', // menu key ，唯一。注册之后，可配置到工具栏
   factory() {
     return new EditFormulaMenu()
   },

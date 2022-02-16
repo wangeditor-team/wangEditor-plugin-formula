@@ -16,7 +16,7 @@ const editor = createEditor({
   config: {
     hoverbarKeys: {
       formula: {
-        menuKeys: ['editorFormula'], // “编辑”菜单
+        menuKeys: ['editFormula'], // “编辑”菜单
       },
     },
     onChange(editor) {
