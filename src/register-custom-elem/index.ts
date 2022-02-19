@@ -50,7 +50,7 @@ class WangEditorFormulaCard extends HTMLElement {
     }
   }
 
-  render(value: string) {
+  private render(value: string) {
     katex.render(value, this.span, {
       throwOnError: false,
     })
