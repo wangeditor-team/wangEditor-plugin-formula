@@ -27,7 +27,7 @@ import formulaModule from '@wangeditor/plugin-formula'
 Boot.registerModule(formulaModule)
 ```
 
-### 菜单配置
+### 配置
 
 ```js
 // 编辑器配置
@@ -56,7 +56,7 @@ const toolbarConfig: Partial<IToolbarConfig> = {
 }
 ```
 
-然后创建创建和工具栏，会用到 `editorConfig` 和 `toolbarConfig` 。具体查看 wangEditor 文档。
+然后创建编辑器和工具栏，会用到 `editorConfig` 和 `toolbarConfig` 。具体查看 wangEditor 文档。
 
 ### 显示 HTML
 
