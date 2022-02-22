@@ -25,7 +25,11 @@ import formulaModule from '@wangeditor/plugin-formula'
 
 // 注册。要在创建编辑器之前注册，且只能注册一次，不可重复注册。
 Boot.registerModule(formulaModule)
+```
 
+### 菜单配置
+
+```js
 // 编辑器配置
 const editorConfig: Partial<IEditorConfig> = {
   // 选中公式时的悬浮菜单
@@ -50,9 +54,9 @@ const toolbarConfig: Partial<IToolbarConfig> = {
 
   // 其他...
 }
-
-// 创建创建和工具栏，会用到 editorConfig 和 toolbarConfig 。具体查看 wangEditor 文档
 ```
+
+然后创建创建和工具栏，会用到 `editorConfig` 和 `toolbarConfig` 。具体查看 wangEditor 文档。
 
 ### 显示 HTML
 

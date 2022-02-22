@@ -17,7 +17,7 @@ yarn add @wangeditor/plugin-formula
 
 ## Usage
 
-### Usage in editor
+### Register to editor
 
 
 ```js
@@ -27,7 +27,11 @@ import formulaModule from '@wangeditor/plugin-formula'
 // Register
 // You should register this before create editor, and register only once (not repeatedly).
 Boot.registerModule(formulaModule)
+```
 
+### Menu config
+
+```js
 const editorConfig: Partial<IEditorConfig> = {
   // Hoverbar keys when selected a formula node.
   hoverbarKeys: {
@@ -50,9 +54,9 @@ const toolbarConfig: Partial<IToolbarConfig> = {
 
   // others...
 }
-
-// Then create editor and toolbar, you will use `editorConfig` and `toolbarConfig`
 ```
+
+Then create editor and toolbar, you will use `editorConfig` and `toolbarConfig`
 
 ### Render HTML
 
