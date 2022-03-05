@@ -32,8 +32,8 @@ module.exports = merge(webpackCommonConf, {
     },
   },
   externals: {
-    '@wangeditor/core': '@wangeditor/core',
-    '@wangeditor/editor': '@wangeditor/editor',
+    '@wangeditor/core': 'WangEditorCore',
+    '@wangeditor/editor': 'wangEditor',
     katex: 'katex',
   },
   plugins,
