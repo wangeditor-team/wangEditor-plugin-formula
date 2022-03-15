@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModalMenu, genModalTextareaElems, genModalButtonElems } from '@wangeditor/core'
+import { IModalMenu } from '@wangeditor/core'
 import {
   DomEditor,
   IDomEditor,
@@ -11,6 +11,8 @@ import {
   SlateTransforms,
   SlateRange,
   t,
+  genModalTextareaElems,
+  genModalButtonElems,
 } from '@wangeditor/editor'
 import { PENCIL_SVG } from '../../constants/icon-svg'
 import $, { Dom7Array, DOMElement } from '../../utils/dom'

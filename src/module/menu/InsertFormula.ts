@@ -3,8 +3,16 @@
  * @author wangfupeng
  */
 
-import { IModalMenu, genModalTextareaElems, genModalButtonElems } from '@wangeditor/core'
-import { DomEditor, IDomEditor, SlateNode, SlateRange, t } from '@wangeditor/editor'
+import { IModalMenu } from '@wangeditor/core'
+import {
+  DomEditor,
+  IDomEditor,
+  SlateNode,
+  SlateRange,
+  t,
+  genModalTextareaElems,
+  genModalButtonElems,
+} from '@wangeditor/editor'
 import { SIGMA_SVG } from '../../constants/icon-svg'
 import $, { Dom7Array, DOMElement } from '../../utils/dom'
 import { genRandomStr } from '../../utils/util'
