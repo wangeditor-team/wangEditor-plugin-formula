@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModalMenu } from '@wangeditor/core'
+import { IModalMenu } from '@wangeditor/editor'
 import {
   DomEditor,
   IDomEditor,

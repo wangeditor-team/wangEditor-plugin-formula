@@ -32,12 +32,6 @@ module.exports = merge(webpackCommonConf, {
     },
   },
   externals: {
-    '@wangeditor/core': {
-      commonjs: '@wangeditor/core',
-      commonjs2: '@wangeditor/core',
-      amd: '@wangeditor/core',
-      root: 'WangEditorCore',
-    },
     '@wangeditor/editor': {
       commonjs: '@wangeditor/editor',
       commonjs2: '@wangeditor/editor',
