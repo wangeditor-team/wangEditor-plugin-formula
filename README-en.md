@@ -4,7 +4,7 @@
 
 ## Introduction
 
-[wangEditor](https://www.wangeditor.com/v5/) Formula plugin, use `LateX` syntax.
+[wangEditor](https://www.wangeditor.com/en/) Formula plugin, use `LateX` syntax.
 
 ![](./_img/demo.png)
 

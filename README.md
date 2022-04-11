@@ -4,7 +4,7 @@
 
 ## 介绍
 
-[wangEditor](https://www.wangeditor.com/v5/) 公式插件，使用 [LateX](https://baike.baidu.com/item/LaTeX/1212106) 语法。
+[wangEditor](https://www.wangeditor.com/) 公式插件，使用 [LateX](https://baike.baidu.com/item/LaTeX/1212106) 语法。
 
 ![](./_img/demo.png)
 
