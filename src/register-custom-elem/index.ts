@@ -57,4 +57,6 @@ class WangEditorFormulaCard extends HTMLElement {
   }
 }
 
-window.customElements.define('w-e-formula-card', WangEditorFormulaCard)
+if (!window.customElements.get('w-e-formula-card')) {
+  window.customElements.define('w-e-formula-card', WangEditorFormulaCard)
+}
